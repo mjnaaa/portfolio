@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="title" content="나민정 포트폴리오">
+  <meta name="author" content="나민정">
+  <meta property="og:type" content="webportfolio">
+  <meta property="og:title" content="나민정 포트폴리오">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="/images/common/ogimage.png">
+  <title>나민정 포트폴리오</title>
+  <!--css-->
+  <link rel="stylesheet" href="css/common.css">
+  <!--jquery-->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+   <div class="container">
+    <!--
+   	<div class="header marB100" id="top">
+   		<div class="logo"><a href="main.html"><img src="img/logo.png"></a></div>
+   	</div>
+    -->
+
+   	<div class="contents">
+   		<div class="title marB100">
+   			<h3 class="marB70">반갑습니다.<br>소통하는 웹디자이너<span></span><br><b>나민정 입니다.</b></h3>
+   			<div><p>여기에 소개 문구를 어쩌구 저쩌구<br>웹디자이너 나민정의 포트폴리오 입니다.</p></div>
+   		</div>
+
+      <!--포트폴리오-->
+   		<div class="portfolio_wrap">
+
+  			<div class="portfolio marB20">
+  				<div>
+  					<a href="portfolio01.html"><img src="img/portfolio01_main.jpg"></a>
+  				</div>
+   		  </div>
+
+        <div class="portfolio marB20">
+  				<div>
+  					<a href="portfolio02.html"><img src="img/portfolio02_main.jpg"></a>
+  				</div>
+   		  </div>
+
+        <div class="portfolio marB20">
+  				<div>
+  					<a href="portfolio03.html"><img src="img/portfolio03_main.jpg"></a>
+  				</div>
+   		  </div>
+
+        <div class="portfolio marB20">
+  				<div>
+  					<a href="portfolio01.html"><img src="img/portfolio01_main.jpg"></a>
+  				</div>
+   		  </div>
+
+        <div class="portfolio marB20">
+  				<div>
+  					<a href="portfolio02.html"><img src="img/portfolio02_main.jpg"></a>
+  				</div>
+   		  </div>
+
+        <div class="portfolio marB20">
+  				<div>
+  					<a href="portfolio03.html"><img src="img/portfolio03_main.jpg"></a>
+  				</div>
+   		  </div>
+   	  </div>
+
+   </div>
+
+   <!-- footer -->
+
+   <div class="ft">
+       <div>
+           <div>©2021 mjnaaa. All rights Reserved.</div>
+       </div>
+   </div>
+
+  <button type="button" id="top_btn">상단으로</button>
+  <script>
+   	$(function() {
+   		$("#top_btn").on("click", function() {
+   			$("html, body").animate({scrollTop:0}, '500');
+   			return false;
+   		});
+   	});
+	</script>
+
+</body>
+</html>
