@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 html {overflow-y:scroll;height:100%; font-family: 'Noto Sans KR', sans-serif !important; margin:0 auto; font-weight:300; color:#555; }
-body {margin:0;padding:0;}
+body {margin:0;padding:0; }
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
 h1, h2, h3, h4, h5, h6 {font-size:1em}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
@@ -21,13 +21,14 @@ a {color:#000;text-decoration:none}
 ul,li,dl,dt,dd{padding:0;margin:0}
 ul{list-style:none;}
 
-.container { width:1220px; padding:100px 20px; margin:0 auto; }
-.container2 { background-color:#f1daca; }
-.container3 { background-color:#000000; }
+.container { width:1220px; padding:100px 20px 20px; margin:0 auto; }
+.contents { width:1220px; margin:0 auto; }
+.contents2 { margin:0 auto; }
 .portfolio { width:380px; height:380px; background-color:#999; float:left; margin-right:20px;}
 .portfolio img { width:380px; height:380px; }
-.imgBox_l {float:left; margin-right:36px; filter:drop-shadow(6px 6px 6px #c6c6c6); }
-.imgBox_r {float:left; margin-top:50px; filter:drop-shadow(6px 6px 6px #c6c6c6); }
+.imgBox_l {float:left; margin-right:36px; margin-top: -100px; filter:drop-shadow(10px 10px 10px #acafb1); }
+.imgBox_r {float:left; margin-top:38px; filter:drop-shadow(10px 10px 10px #acafb1); }
+.imgBox_f img {width: 100%; margin-top: -60px; margin-bottom: 40px;}
 
 
 .marB100 { margin-bottom:100px !important; }
@@ -35,7 +36,6 @@ ul{list-style:none;}
 .marB50 { margin-bottom:50px !important; }
 .marB20 { margin-bottom:20px !important; }
 .marR60 { margin-right:60px !important; }
-.w350 { width:350px !important; }
 
 .title h3 { font-size:60px; font-weight:300; color:#222; line-height:1.2em; }
 .title h3 span { font-weight:bold; color:#4863a4; }
