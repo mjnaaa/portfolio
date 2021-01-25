@@ -22,17 +22,21 @@ ul,li,dl,dt,dd{padding:0;margin:0}
 ul{list-style:none;}
 
 .container { width:1220px; padding:100px 20px; margin:0 auto; }
-.header {  }
+.container2 { background-color:#f1daca; }
+.container3 { background-color:#000000; }
 .portfolio { width:380px; height:380px; background-color:#999; float:left; margin-right:20px;}
 .portfolio img { width:380px; height:380px; }
+.imgBox_l {float:left; margin-right:36px; filter:drop-shadow(6px 6px 6px #c6c6c6); }
+.imgBox_r {float:left; margin-top:50px; filter:drop-shadow(6px 6px 6px #c6c6c6); }
+
 
 .marB100 { margin-bottom:100px !important; }
 .marB70 { margin-bottom:70px !important; }
+.marB50 { margin-bottom:50px !important; }
 .marB20 { margin-bottom:20px !important; }
 .marR60 { margin-right:60px !important; }
 .w350 { width:350px !important; }
 
-.title { }
 .title h3 { font-size:60px; font-weight:300; color:#222; line-height:1.2em; }
 .title h3 span { font-weight:bold; color:#4863a4; }
 .title h3 b { font-weight:bold; }
