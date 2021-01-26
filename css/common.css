@@ -29,11 +29,15 @@ ul{list-style:none;}
 .imgBox_l {float:left; margin-right:36px; margin-top: -100px; filter:drop-shadow(10px 10px 10px #acafb1); }
 .imgBox_r {float:left; margin-top:38px; filter:drop-shadow(10px 10px 10px #acafb1); }
 .imgBox_f img {width: 100%; margin-top: -60px; margin-bottom: 40px;}
+.imgBox img {width: 100%; margin-top: 70px; margin-bottom: 40px;}
+.imgBox2 img {width: 100%; margin-top: 70px;}
+.imgBox3 img {width: 100%; }
 
 
 .marB100 { margin-bottom:100px !important; }
 .marB70 { margin-bottom:70px !important; }
 .marB50 { margin-bottom:50px !important; }
+.marB40 { margin-bottom:40px !important; }
 .marB20 { margin-bottom:20px !important; }
 .marR60 { margin-right:60px !important; }
 
